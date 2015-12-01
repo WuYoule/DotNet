@@ -1,0 +1,5 @@
+d:\documents\visual studio 2013\Projects\JSDVidio\JSDVidio\bin\JSDVidio.dll.config
+d:\documents\visual studio 2013\Projects\JSDVidio\JSDVidio\bin\JSDVidio.dll
+d:\documents\visual studio 2013\Projects\JSDVidio\JSDVidio\bin\JSDVidio.pdb
+d:\documents\visual studio 2013\Projects\JSDVidio\JSDVidio\obj\Release\JSDVidio.dll
+d:\documents\visual studio 2013\Projects\JSDVidio\JSDVidio\obj\Release\JSDVidio.pdb

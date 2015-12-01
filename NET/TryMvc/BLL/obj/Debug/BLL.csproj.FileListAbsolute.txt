@@ -1,0 +1,48 @@
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\BLL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\BLL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\DAL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\IBLL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\IDAL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\MODEL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\DAL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\IBLL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\IDAL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\MODEL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\obj\Debug\BLL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\BLL\obj\Debug\BLL.pdb
+F:\TryMvc\BLL\bin\Debug\BLL.dll
+F:\TryMvc\BLL\bin\Debug\BLL.pdb
+F:\TryMvc\BLL\bin\Debug\DAL.dll
+F:\TryMvc\BLL\bin\Debug\IBLL.dll
+F:\TryMvc\BLL\bin\Debug\IDAL.dll
+F:\TryMvc\BLL\bin\Debug\MODEL.dll
+F:\TryMvc\BLL\bin\Debug\EntityFramework.dll
+F:\TryMvc\BLL\bin\Debug\DAL.pdb
+F:\TryMvc\BLL\bin\Debug\IBLL.pdb
+F:\TryMvc\BLL\bin\Debug\IDAL.pdb
+F:\TryMvc\BLL\bin\Debug\MODEL.pdb
+F:\TryMvc\BLL\bin\Debug\EntityFramework.xml
+F:\TryMvc\BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\TryMvc\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\TryMvc\BLL\obj\Debug\BLL.dll
+F:\TryMvc\BLL\obj\Debug\BLL.pdb
+D:\HOME\TryMvc\BLL\bin\Debug\BLL.dll
+D:\HOME\TryMvc\BLL\bin\Debug\BLL.pdb
+D:\HOME\TryMvc\BLL\bin\Debug\DAL.dll
+D:\HOME\TryMvc\BLL\bin\Debug\IBLL.dll
+D:\HOME\TryMvc\BLL\bin\Debug\IDAL.dll
+D:\HOME\TryMvc\BLL\bin\Debug\MODEL.dll
+D:\HOME\TryMvc\BLL\bin\Debug\EntityFramework.dll
+D:\HOME\TryMvc\BLL\bin\Debug\DAL.pdb
+D:\HOME\TryMvc\BLL\bin\Debug\IBLL.pdb
+D:\HOME\TryMvc\BLL\bin\Debug\IDAL.pdb
+D:\HOME\TryMvc\BLL\bin\Debug\MODEL.pdb
+D:\HOME\TryMvc\BLL\bin\Debug\EntityFramework.xml
+D:\HOME\TryMvc\BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\HOME\TryMvc\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\HOME\TryMvc\BLL\obj\Debug\BLL.dll
+D:\HOME\TryMvc\BLL\obj\Debug\BLL.pdb

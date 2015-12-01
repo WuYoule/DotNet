@@ -1,0 +1,11 @@
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\bin\Debug\IBLL.dll.config
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\bin\Debug\IBLL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\bin\Debug\IBLL.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\bin\Debug\MODEL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\bin\Debug\MODEL.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\obj\Debug\IBLL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\IBLL\obj\Debug\IBLL.pdb

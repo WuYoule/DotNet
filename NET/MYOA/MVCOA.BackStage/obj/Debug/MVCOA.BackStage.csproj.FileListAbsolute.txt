@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2013\Projects\MYOA\MVCOA\bin\MVCOA.BackStage.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\MVCOA\bin\MVCOA.BackStage.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\MVCOA.BackStage\obj\Debug\MVCOA.BackStage.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\MVCOA.BackStage\obj\Debug\MVCOA.BackStage.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\MVCOA.BackStage\obj\Debug\MVCOA.BackStage.csprojResolveAssemblyReference.cache

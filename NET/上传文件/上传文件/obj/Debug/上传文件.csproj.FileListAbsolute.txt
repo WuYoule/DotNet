@@ -1,0 +1,6 @@
+d:\documents\visual studio 2013\Projects\上传文件\上传文件\bin\上传文件.dll.config
+d:\documents\visual studio 2013\Projects\上传文件\上传文件\bin\上传文件.dll
+d:\documents\visual studio 2013\Projects\上传文件\上传文件\bin\上传文件.pdb
+d:\documents\visual studio 2013\Projects\上传文件\上传文件\obj\Debug\上传文件.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2013\Projects\上传文件\上传文件\obj\Debug\上传文件.dll
+d:\documents\visual studio 2013\Projects\上传文件\上传文件\obj\Debug\上传文件.pdb

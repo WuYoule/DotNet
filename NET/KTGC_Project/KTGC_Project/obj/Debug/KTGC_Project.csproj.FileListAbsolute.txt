@@ -1,0 +1,6 @@
+d:\documents\visual studio 2013\Projects\KTGC_Project\KTGC_Project\bin\KTGC_Project.dll.config
+d:\documents\visual studio 2013\Projects\KTGC_Project\KTGC_Project\bin\KTGC_Project.dll
+d:\documents\visual studio 2013\Projects\KTGC_Project\KTGC_Project\bin\KTGC_Project.pdb
+d:\documents\visual studio 2013\Projects\KTGC_Project\KTGC_Project\obj\Debug\KTGC_Project.dll
+d:\documents\visual studio 2013\Projects\KTGC_Project\KTGC_Project\obj\Debug\KTGC_Project.pdb
+d:\documents\visual studio 2013\Projects\KTGC_Project\KTGC_Project\obj\Debug\KTGC_Project.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+d:\documents\visual studio 2013\Projects\JSDOM\JSDOM\bin\JSDOM.dll.config
+d:\documents\visual studio 2013\Projects\JSDOM\JSDOM\bin\JSDOM.dll
+d:\documents\visual studio 2013\Projects\JSDOM\JSDOM\bin\JSDOM.pdb
+d:\documents\visual studio 2013\Projects\JSDOM\JSDOM\obj\Debug\JSDOM.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2013\Projects\JSDOM\JSDOM\obj\Debug\JSDOM.dll
+d:\documents\visual studio 2013\Projects\JSDOM\JSDOM\obj\Debug\JSDOM.pdb
+D:\Documents\Visual Studio 2013\Projects\JSDOM\JSDOM\bin\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\JSDOM\JSDOM\bin\EntityFramework.xml

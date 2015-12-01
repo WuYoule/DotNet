@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="COModelStoreContainer" CdmEntityContainer="COEntities">
+    <EntitySetMapping Name="ARCHIVEs">
+      <EntityTypeMapping TypeName="COModel.ARCHIVE">
+        <MappingFragment StoreEntitySet="ARCHIVE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="OBSERVE_ID" ColumnName="OBSERVE_ID" />
+          <ScalarProperty Name="ARCHIVECONTENT" ColumnName="ARCHIVECONTENT" />
+          <ScalarProperty Name="ARCHIVE_ID" ColumnName="ARCHIVE_ID" />
+          <ScalarProperty Name="MODIFY_TIME" ColumnName="MODIFY_TIME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ATTACHMENTs">
+      <EntityTypeMapping TypeName="COModel.ATTACHMENT">
+        <MappingFragment StoreEntitySet="ATTACHMENT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OBSERVE_ID" ColumnName="OBSERVE_ID" />
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="STEP_ID" ColumnName="STEP_ID" />
+          <ScalarProperty Name="IMAGE" ColumnName="IMAGE" />
+          <ScalarProperty Name="VIDEO" ColumnName="VIDEO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLASSes">
+      <EntityTypeMapping TypeName="COModel.CLASS">
+        <MappingFragment StoreEntitySet="CLASS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CLASS_ID" ColumnName="CLASS_ID" />
+          <ScalarProperty Name="CLASS_NAME" ColumnName="CLASS_NAME" />
+          <ScalarProperty Name="CLASS_N" ColumnName="CLASS_N" />
+          <ScalarProperty Name="CLASS_TYPE" ColumnName="CLASS_TYPE" />
+          <ScalarProperty Name="SCHOOL_ID" ColumnName="SCHOOL_ID" />
+          <ScalarProperty Name="SCHOOL_N" ColumnName="SCHOOL_N" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DISTRIBUTs">
+      <EntityTypeMapping TypeName="COModel.DISTRIBUT">
+        <MappingFragment StoreEntitySet="DISTRIBUT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DISTRIBUT_ID" ColumnName="DISTRIBUT_ID" />
+          <ScalarProperty Name="DISTRIBUT_SEQ_ID" ColumnName="DISTRIBUT_SEQ_ID" />
+          <ScalarProperty Name="OBSERVER_ID" ColumnName="OBSERVER_ID" />
+          <ScalarProperty Name="OBSERVER_N" ColumnName="OBSERVER_N" />
+          <ScalarProperty Name="RECEIVE" ColumnName="RECEIVE" />
+          <ScalarProperty Name="RECEIVE_TIME" ColumnName="RECEIVE_TIME" />
+          <ScalarProperty Name="OBSERVE" ColumnName="OBSERVE" />
+          <ScalarProperty Name="OBSERVE_TIME" ColumnName="OBSERVE_TIME" />
+          <ScalarProperty Name="UPLOAD" ColumnName="UPLOAD" />
+          <ScalarProperty Name="UPLOAD_TIME" ColumnName="UPLOAD_TIME" />
+          <ScalarProperty Name="FILING" ColumnName="FILING" />
+          <ScalarProperty Name="FILING_TIME" ColumnName="FILING_TIME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOCs">
+      <EntityTypeMapping TypeName="COModel.DOC">
+        <MappingFragment StoreEntitySet="DOC">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DOC_ID" ColumnName="DOC_ID" />
+          <ScalarProperty Name="DOC_SEQ_ID" ColumnName="DOC_SEQ_ID" />
+          <ScalarProperty Name="DOC_NAME" ColumnName="DOC_NAME" />
+          <ScalarProperty Name="DOC_N" ColumnName="DOC_N" />
+          <ScalarProperty Name="DOC_TYPE" ColumnName="DOC_TYPE" />
+          <ScalarProperty Name="DOC_FILE" ColumnName="DOC_FILE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EVALUATEs">
+      <EntityTypeMapping TypeName="COModel.EVALUATE">
+        <MappingFragment StoreEntitySet="EVALUATE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TARGET_ID" ColumnName="TARGET_ID" />
+          <ScalarProperty Name="TARGET_SUBID" ColumnName="TARGET_SUBID" />
+          <ScalarProperty Name="TARGET_SUBID2" ColumnName="TARGET_SUBID2" />
+          <ScalarProperty Name="EVALUATE_ID" ColumnName="EVALUATE_ID" />
+          <ScalarProperty Name="EVALUATE_CONTENT" ColumnName="EVALUATE_CONTENT" />
+          <ScalarProperty Name="EVALUATE_LEVEL_ID" ColumnName="EVALUATE_LEVEL_ID" />
+          <ScalarProperty Name="EVALUATE_LEVEL_CONT" ColumnName="EVALUATE_LEVEL_CONT" />
+          <ScalarProperty Name="EVALUATE_LEVEL_RESULT" ColumnName="EVALUATE_LEVEL_RESULT" />
+          <ScalarProperty Name="EVALUATE_LEVEL_SCORE" ColumnName="EVALUATE_LEVEL_SCORE" />
+          <ScalarProperty Name="USED" ColumnName="USED" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OBSERVEs">
+      <EntityTypeMapping TypeName="COModel.OBSERVE">
+        <MappingFragment StoreEntitySet="OBSERVE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OBSERVE_ID" ColumnName="OBSERVE_ID" />
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="STEP_ID" ColumnName="STEP_ID" />
+          <ScalarProperty Name="TARGET_ID" ColumnName="TARGET_ID" />
+          <ScalarProperty Name="TARGET_SUBID" ColumnName="TARGET_SUBID" />
+          <ScalarProperty Name="TARGET_SUBID2" ColumnName="TARGET_SUBID2" />
+          <ScalarProperty Name="EVALUATE_ID" ColumnName="EVALUATE_ID" />
+          <ScalarProperty Name="EVALUATE_LEVEL_ID" ColumnName="EVALUATE_LEVEL_ID" />
+          <ScalarProperty Name="EVALUATE_CONTENT" ColumnName="EVALUATE_CONTENT" />
+          <ScalarProperty Name="EVALUATE_LEVEL_CONT" ColumnName="EVALUATE_LEVEL_CONT" />
+          <ScalarProperty Name="EVALUATE_LEVEL_RESULT" ColumnName="EVALUATE_LEVEL_RESULT" />
+          <ScalarProperty Name="EVALUATE_LEVEL_SCORE" ColumnName="EVALUATE_LEVEL_SCORE" />
+          <ScalarProperty Name="COMMENT" ColumnName="COMMENT" />
+          <ScalarProperty Name="MODIFY_TIME" ColumnName="MODIFY_TIME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERMISSIONs">
+      <EntityTypeMapping TypeName="COModel.PERMISSION">
+        <MappingFragment StoreEntitySet="PERMISSION">
+          <ScalarProperty Name="PN" ColumnName="PN" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="PNAMN" ColumnName="PNAMN" />
+          <ScalarProperty Name="RID" ColumnName="RID" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROLEs">
+      <EntityTypeMapping TypeName="COModel.ROLE">
+        <MappingFragment StoreEntitySet="ROLE">
+          <ScalarProperty Name="RID" ColumnName="RID" />
+          <ScalarProperty Name="RNAME" ColumnName="RNAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SCHOOLs">
+      <EntityTypeMapping TypeName="COModel.SCHOOL">
+        <MappingFragment StoreEntitySet="SCHOOL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SCHOOL_ID" ColumnName="SCHOOL_ID" />
+          <ScalarProperty Name="SCHOOL_NAME" ColumnName="SCHOOL_NAME" />
+          <ScalarProperty Name="SCHOOL_N" ColumnName="SCHOOL_N" />
+          <ScalarProperty Name="SCHOOL_TYPE" ColumnName="SCHOOL_TYPE" />
+          <ScalarProperty Name="SCHOOL_AREA" ColumnName="SCHOOL_AREA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STEPs">
+      <EntityTypeMapping TypeName="COModel.STEP">
+        <MappingFragment StoreEntitySet="STEP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="STEP_ID" ColumnName="STEP_ID" />
+          <ScalarProperty Name="STEP_NAME" ColumnName="STEP_NAME" />
+          <ScalarProperty Name="STEP_N" ColumnName="STEP_N" />
+          <ScalarProperty Name="STEP_TYPE" ColumnName="STEP_TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STEP_SEL">
+      <EntityTypeMapping TypeName="COModel.STEP_SEL">
+        <MappingFragment StoreEntitySet="STEP_SEL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="STEP_SEL_ID" ColumnName="STEP_SEL_ID" />
+          <ScalarProperty Name="STEP_SEQ_ID" ColumnName="STEP_SEQ_ID" />
+          <ScalarProperty Name="STEP_ID" ColumnName="STEP_ID" />
+          <ScalarProperty Name="STEP_N" ColumnName="STEP_N" />
+          <ScalarProperty Name="STEP_TYPE" ColumnName="STEP_TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STYLEs">
+      <EntityTypeMapping TypeName="COModel.STYLE">
+        <MappingFragment StoreEntitySet="STYLE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="STYLE_ID" ColumnName="STYLE_ID" />
+          <ScalarProperty Name="STYLE_NAME" ColumnName="STYLE_NAME" />
+          <ScalarProperty Name="STYLE_N" ColumnName="STYLE_N" />
+          <ScalarProperty Name="STYLE_TYPE" ColumnName="STYLE_TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUBJECTs">
+      <EntityTypeMapping TypeName="COModel.SUBJECT">
+        <MappingFragment StoreEntitySet="SUBJECT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SUBJECT_ID" ColumnName="SUBJECT_ID" />
+          <ScalarProperty Name="SUBJECT_NAME" ColumnName="SUBJECT_NAME" />
+          <ScalarProperty Name="SUBJECT_N" ColumnName="SUBJECT_N" />
+          <ScalarProperty Name="SUBJECT_TYPE" ColumnName="SUBJECT_TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TARGETs">
+      <EntityTypeMapping TypeName="COModel.TARGET">
+        <MappingFragment StoreEntitySet="TARGET">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TARGET_ID" ColumnName="TARGET_ID" />
+          <ScalarProperty Name="TARGET_SUBID" ColumnName="TARGET_SUBID" />
+          <ScalarProperty Name="TARGET_SUBID2" ColumnName="TARGET_SUBID2" />
+          <ScalarProperty Name="TARGET_NAME" ColumnName="TARGET_NAME" />
+          <ScalarProperty Name="TARGET_N" ColumnName="TARGET_N" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TARGET_SEL">
+      <EntityTypeMapping TypeName="COModel.TARGET_SEL">
+        <MappingFragment StoreEntitySet="TARGET_SEL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TARGET_SEL_ID" ColumnName="TARGET_SEL_ID" />
+          <ScalarProperty Name="TARGET_SEQ_ID" ColumnName="TARGET_SEQ_ID" />
+          <ScalarProperty Name="TARGET_ID" ColumnName="TARGET_ID" />
+          <ScalarProperty Name="TARGET_SUBID" ColumnName="TARGET_SUBID" />
+          <ScalarProperty Name="TARGET_SUBID2" ColumnName="TARGET_SUBID2" />
+          <ScalarProperty Name="TARGET_N" ColumnName="TARGET_N" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TASKs">
+      <EntityTypeMapping TypeName="COModel.TASK">
+        <MappingFragment StoreEntitySet="TASK">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="TASK_NAME" ColumnName="TASK_NAME" />
+          <ScalarProperty Name="SCHOOL_ID" ColumnName="SCHOOL_ID" />
+          <ScalarProperty Name="SCHOOL_N" ColumnName="SCHOOL_N" />
+          <ScalarProperty Name="SUBJECT_ID" ColumnName="SUBJECT_ID" />
+          <ScalarProperty Name="SUBJECT_N" ColumnName="SUBJECT_N" />
+          <ScalarProperty Name="TITLE_ID" ColumnName="TITLE_ID" />
+          <ScalarProperty Name="TITLE_N" ColumnName="TITLE_N" />
+          <ScalarProperty Name="STYLE_ID" ColumnName="STYLE_ID" />
+          <ScalarProperty Name="STYLE_N" ColumnName="STYLE_N" />
+          <ScalarProperty Name="CLASS_ID" ColumnName="CLASS_ID" />
+          <ScalarProperty Name="CLASS_N" ColumnName="CLASS_N" />
+          <ScalarProperty Name="TEACHER_ID" ColumnName="TEACHER_ID" />
+          <ScalarProperty Name="TEACHER_N" ColumnName="TEACHER_N" />
+          <ScalarProperty Name="DOC_ID" ColumnName="DOC_ID" />
+          <ScalarProperty Name="STEP_SEL_ID" ColumnName="STEP_SEL_ID" />
+          <ScalarProperty Name="TARGET_SEL_ID" ColumnName="TARGET_SEL_ID" />
+          <ScalarProperty Name="DISTRIBUT_ID" ColumnName="DISTRIBUT_ID" />
+          <ScalarProperty Name="CREATE_TIME" ColumnName="CREATE_TIME" />
+          <ScalarProperty Name="RECEIVE" ColumnName="RECEIVE" />
+          <ScalarProperty Name="RECEIVE_TIME" ColumnName="RECEIVE_TIME" />
+          <ScalarProperty Name="OBSERVE" ColumnName="OBSERVE" />
+          <ScalarProperty Name="OBSERVE_TIME" ColumnName="OBSERVE_TIME" />
+          <ScalarProperty Name="UPLOAD" ColumnName="UPLOAD" />
+          <ScalarProperty Name="UPLOAD_TIME" ColumnName="UPLOAD_TIME" />
+          <ScalarProperty Name="FILING" ColumnName="FILING" />
+          <ScalarProperty Name="FILING_TIME" ColumnName="FILING_TIME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TITLEs">
+      <EntityTypeMapping TypeName="COModel.TITLE">
+        <MappingFragment StoreEntitySet="TITLE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TITLE_ID" ColumnName="TITLE_ID" />
+          <ScalarProperty Name="TITLE_NAME" ColumnName="TITLE_NAME" />
+          <ScalarProperty Name="TITLE_N" ColumnName="TITLE_N" />
+          <ScalarProperty Name="TITLE_TYPE" ColumnName="TITLE_TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERs">
+      <EntityTypeMapping TypeName="COModel.USER">
+        <MappingFragment StoreEntitySet="USER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="USER_N" ColumnName="USER_N" />
+          <ScalarProperty Name="USER_TYPE" ColumnName="USER_TYPE" />
+          <ScalarProperty Name="USER_PWD" ColumnName="USER_PWD" />
+          <ScalarProperty Name="USER_AREA" ColumnName="USER_AREA" />
+          <ScalarProperty Name="USER_SCHOOL" ColumnName="USER_SCHOOL" />
+          <ScalarProperty Name="USER_SUBJECT" ColumnName="USER_SUBJECT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USER_TASK">
+      <EntityTypeMapping TypeName="COModel.USER_TASK">
+        <MappingFragment StoreEntitySet="USER_TASK">
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

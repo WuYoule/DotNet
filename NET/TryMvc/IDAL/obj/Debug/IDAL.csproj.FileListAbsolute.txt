@@ -1,0 +1,30 @@
+D:\Documents\Visual Studio 2013\Projects\TryMvc\IDAL\bin\Debug\IDAL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\IDAL\bin\Debug\IDAL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\IDAL\bin\Debug\MODEL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\IDAL\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\IDAL\bin\Debug\MODEL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\IDAL\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\TryMvc\IDAL\obj\Debug\IDAL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\IDAL\obj\Debug\IDAL.pdb
+F:\TryMvc\IDAL\bin\Debug\IDAL.dll
+F:\TryMvc\IDAL\bin\Debug\IDAL.pdb
+F:\TryMvc\IDAL\bin\Debug\MODEL.dll
+F:\TryMvc\IDAL\bin\Debug\EntityFramework.dll
+F:\TryMvc\IDAL\bin\Debug\MODEL.pdb
+F:\TryMvc\IDAL\bin\Debug\EntityFramework.xml
+F:\TryMvc\IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\TryMvc\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+F:\TryMvc\IDAL\obj\Debug\IDAL.dll
+F:\TryMvc\IDAL\obj\Debug\IDAL.pdb
+D:\HOME\TryMvc\IDAL\bin\Debug\IDAL.dll
+D:\HOME\TryMvc\IDAL\bin\Debug\IDAL.pdb
+D:\HOME\TryMvc\IDAL\bin\Debug\MODEL.dll
+D:\HOME\TryMvc\IDAL\bin\Debug\EntityFramework.dll
+D:\HOME\TryMvc\IDAL\bin\Debug\MODEL.pdb
+D:\HOME\TryMvc\IDAL\bin\Debug\EntityFramework.xml
+D:\HOME\TryMvc\IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\HOME\TryMvc\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\HOME\TryMvc\IDAL\obj\Debug\IDAL.dll
+D:\HOME\TryMvc\IDAL\obj\Debug\IDAL.pdb

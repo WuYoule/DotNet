@@ -1,0 +1,161 @@
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\obj\Debug\MvcMy.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\MvcMy.dll.config
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\MvcMy.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\MvcMy.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\Antlr3.Runtime.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\BLL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\IBLL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\MODEL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Net.Http.Formatting.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.Http.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.Http.WebHost.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.Mvc.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.Optimization.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.Providers.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.Razor.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.WebPages.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.WebPages.Razor.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\WebGrease.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\IDAL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\DAL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\BLL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\IBLL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\MODEL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\EntityFramework.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Net.Http.Formatting.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.Http.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.Http.WebHost.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.Mvc.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.Razor.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.WebPages.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\System.Web.WebPages.Razor.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\IDAL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\DAL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\EntityFramework.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\System.Web.Http.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\obj\Debug\MvcMy.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\MvcMy\obj\Debug\MvcMy.pdb
+F:\TryMvc\MvcMy\obj\Debug\MvcMy.csprojResolveAssemblyReference.cache
+F:\TryMvc\MvcMy\obj\Debug\MvcMy.dll
+F:\TryMvc\MvcMy\bin\MvcMy.dll.config
+F:\TryMvc\MvcMy\bin\MvcMy.dll
+F:\TryMvc\MvcMy\bin\MvcMy.pdb
+F:\TryMvc\MvcMy\bin\Antlr3.Runtime.dll
+F:\TryMvc\MvcMy\bin\BLL.dll
+F:\TryMvc\MvcMy\bin\EntityFramework.dll
+F:\TryMvc\MvcMy\bin\IBLL.dll
+F:\TryMvc\MvcMy\bin\Microsoft.Web.Infrastructure.dll
+F:\TryMvc\MvcMy\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\TryMvc\MvcMy\bin\MODEL.dll
+F:\TryMvc\MvcMy\bin\Newtonsoft.Json.dll
+F:\TryMvc\MvcMy\bin\System.Net.Http.Formatting.dll
+F:\TryMvc\MvcMy\bin\System.Web.Http.dll
+F:\TryMvc\MvcMy\bin\System.Web.Http.WebHost.dll
+F:\TryMvc\MvcMy\bin\System.Web.Mvc.dll
+F:\TryMvc\MvcMy\bin\System.Web.Optimization.dll
+F:\TryMvc\MvcMy\bin\System.Web.Providers.dll
+F:\TryMvc\MvcMy\bin\System.Web.Razor.dll
+F:\TryMvc\MvcMy\bin\System.Web.WebPages.Deployment.dll
+F:\TryMvc\MvcMy\bin\System.Web.WebPages.dll
+F:\TryMvc\MvcMy\bin\System.Web.WebPages.Razor.dll
+F:\TryMvc\MvcMy\bin\WebGrease.dll
+F:\TryMvc\MvcMy\bin\IDAL.dll
+F:\TryMvc\MvcMy\bin\DAL.dll
+F:\TryMvc\MvcMy\bin\BLL.pdb
+F:\TryMvc\MvcMy\bin\IBLL.pdb
+F:\TryMvc\MvcMy\bin\MODEL.pdb
+F:\TryMvc\MvcMy\bin\EntityFramework.xml
+F:\TryMvc\MvcMy\bin\Newtonsoft.Json.xml
+F:\TryMvc\MvcMy\bin\System.Net.Http.Formatting.xml
+F:\TryMvc\MvcMy\bin\System.Web.Http.xml
+F:\TryMvc\MvcMy\bin\System.Web.Http.WebHost.xml
+F:\TryMvc\MvcMy\bin\System.Web.Mvc.xml
+F:\TryMvc\MvcMy\bin\System.Web.Razor.xml
+F:\TryMvc\MvcMy\bin\System.Web.WebPages.xml
+F:\TryMvc\MvcMy\bin\System.Web.WebPages.Deployment.xml
+F:\TryMvc\MvcMy\bin\System.Web.WebPages.Razor.xml
+F:\TryMvc\MvcMy\bin\IDAL.pdb
+F:\TryMvc\MvcMy\bin\DAL.pdb
+F:\TryMvc\MvcMy\bin\zh-Hans\EntityFramework.resources.dll
+F:\TryMvc\MvcMy\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\TryMvc\MvcMy\bin\zh-Hans\System.Web.Http.resources.dll
+F:\TryMvc\MvcMy\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\TryMvc\MvcMy\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\TryMvc\MvcMy\bin\zh-Hans\System.Web.Optimization.resources.dll
+F:\TryMvc\MvcMy\bin\zh-Hans\System.Web.Providers.resources.dll
+F:\TryMvc\MvcMy\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\TryMvc\MvcMy\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\TryMvc\MvcMy\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\TryMvc\MvcMy\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\TryMvc\MvcMy\obj\Debug\MvcMy.pdb
+D:\HOME\TryMvc\MvcMy\bin\MvcMy.dll.config
+D:\HOME\TryMvc\MvcMy\bin\MvcMy.dll
+D:\HOME\TryMvc\MvcMy\bin\MvcMy.pdb
+D:\HOME\TryMvc\MvcMy\bin\Antlr3.Runtime.dll
+D:\HOME\TryMvc\MvcMy\bin\BLL.dll
+D:\HOME\TryMvc\MvcMy\bin\EntityFramework.dll
+D:\HOME\TryMvc\MvcMy\bin\IBLL.dll
+D:\HOME\TryMvc\MvcMy\bin\Microsoft.Web.Infrastructure.dll
+D:\HOME\TryMvc\MvcMy\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\HOME\TryMvc\MvcMy\bin\MODEL.dll
+D:\HOME\TryMvc\MvcMy\bin\Newtonsoft.Json.dll
+D:\HOME\TryMvc\MvcMy\bin\System.Net.Http.Formatting.dll
+D:\HOME\TryMvc\MvcMy\bin\System.Web.Http.dll
+D:\HOME\TryMvc\MvcMy\bin\System.Web.Http.WebHost.dll
+D:\HOME\TryMvc\MvcMy\bin\System.Web.Mvc.dll
+D:\HOME\TryMvc\MvcMy\bin\System.Web.Optimization.dll
+D:\HOME\TryMvc\MvcMy\bin\System.Web.Providers.dll
+D:\HOME\TryMvc\MvcMy\bin\System.Web.Razor.dll
+D:\HOME\TryMvc\MvcMy\bin\System.Web.WebPages.Deployment.dll
+D:\HOME\TryMvc\MvcMy\bin\System.Web.WebPages.dll
+D:\HOME\TryMvc\MvcMy\bin\System.Web.WebPages.Razor.dll
+D:\HOME\TryMvc\MvcMy\bin\WebGrease.dll
+D:\HOME\TryMvc\MvcMy\bin\IDAL.dll
+D:\HOME\TryMvc\MvcMy\bin\DAL.dll
+D:\HOME\TryMvc\MvcMy\bin\BLL.pdb
+D:\HOME\TryMvc\MvcMy\bin\IBLL.pdb
+D:\HOME\TryMvc\MvcMy\bin\MODEL.pdb
+D:\HOME\TryMvc\MvcMy\bin\EntityFramework.xml
+D:\HOME\TryMvc\MvcMy\bin\Newtonsoft.Json.xml
+D:\HOME\TryMvc\MvcMy\bin\System.Net.Http.Formatting.xml
+D:\HOME\TryMvc\MvcMy\bin\System.Web.Http.xml
+D:\HOME\TryMvc\MvcMy\bin\System.Web.Http.WebHost.xml
+D:\HOME\TryMvc\MvcMy\bin\System.Web.Mvc.xml
+D:\HOME\TryMvc\MvcMy\bin\System.Web.Razor.xml
+D:\HOME\TryMvc\MvcMy\bin\System.Web.WebPages.xml
+D:\HOME\TryMvc\MvcMy\bin\System.Web.WebPages.Deployment.xml
+D:\HOME\TryMvc\MvcMy\bin\System.Web.WebPages.Razor.xml
+D:\HOME\TryMvc\MvcMy\bin\IDAL.pdb
+D:\HOME\TryMvc\MvcMy\bin\DAL.pdb
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\EntityFramework.resources.dll
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\System.Web.Http.resources.dll
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\HOME\TryMvc\MvcMy\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\HOME\TryMvc\MvcMy\obj\Debug\MvcMy.csprojResolveAssemblyReference.cache
+D:\HOME\TryMvc\MvcMy\obj\Debug\MvcMy.dll
+D:\HOME\TryMvc\MvcMy\obj\Debug\MvcMy.pdb
+D:\HOME\TryMvc\MvcMy\bin\EntityFramework.Extended.dll
+D:\HOME\TryMvc\MvcMy\bin\EntityFramework.Extended.xml

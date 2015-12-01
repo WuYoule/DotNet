@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2013\Projects\MYOA\DI\bin\Debug\DI.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\DI\bin\Debug\DI.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\DI\bin\Debug\Common.Logging.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\DI\bin\Debug\Spring.Core.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\DI\obj\Debug\DI.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\DI\obj\Debug\DI.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\DI\obj\Debug\DI.csprojResolveAssemblyReference.cache

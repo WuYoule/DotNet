@@ -1,0 +1,38 @@
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\bin\Debug\DAL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\bin\Debug\DAL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\bin\Debug\IDAL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\bin\Debug\MODEL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\bin\Debug\IDAL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\bin\Debug\MODEL.pdb
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\obj\Debug\DAL.dll
+D:\Documents\Visual Studio 2013\Projects\TryMvc\DAL\obj\Debug\DAL.pdb
+F:\TryMvc\DAL\bin\Debug\DAL.dll
+F:\TryMvc\DAL\bin\Debug\DAL.pdb
+F:\TryMvc\DAL\bin\Debug\EntityFramework.dll
+F:\TryMvc\DAL\bin\Debug\IDAL.dll
+F:\TryMvc\DAL\bin\Debug\MODEL.dll
+F:\TryMvc\DAL\bin\Debug\IDAL.pdb
+F:\TryMvc\DAL\bin\Debug\MODEL.pdb
+F:\TryMvc\DAL\bin\Debug\EntityFramework.xml
+F:\TryMvc\DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\TryMvc\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\TryMvc\DAL\obj\Debug\DAL.dll
+F:\TryMvc\DAL\obj\Debug\DAL.pdb
+D:\HOME\TryMvc\DAL\bin\Debug\DAL.dll
+D:\HOME\TryMvc\DAL\bin\Debug\DAL.pdb
+D:\HOME\TryMvc\DAL\bin\Debug\EntityFramework.dll
+D:\HOME\TryMvc\DAL\bin\Debug\IDAL.dll
+D:\HOME\TryMvc\DAL\bin\Debug\MODEL.dll
+D:\HOME\TryMvc\DAL\bin\Debug\IDAL.pdb
+D:\HOME\TryMvc\DAL\bin\Debug\MODEL.pdb
+D:\HOME\TryMvc\DAL\bin\Debug\EntityFramework.xml
+D:\HOME\TryMvc\DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\HOME\TryMvc\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\HOME\TryMvc\DAL\obj\Debug\DAL.dll
+D:\HOME\TryMvc\DAL\obj\Debug\DAL.pdb
+D:\HOME\TryMvc\DAL\bin\Debug\EntityFramework.Extended.dll
+D:\HOME\TryMvc\DAL\bin\Debug\EntityFramework.Extended.xml

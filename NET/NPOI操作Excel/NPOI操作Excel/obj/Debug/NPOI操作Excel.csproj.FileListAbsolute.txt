@@ -1,0 +1,10 @@
+d:\documents\visual studio 2013\Projects\NPOI操作Excel\NPOI操作Excel\bin\Debug\NPOI操作Excel.exe.config
+d:\documents\visual studio 2013\Projects\NPOI操作Excel\NPOI操作Excel\bin\Debug\NPOI操作Excel.exe
+d:\documents\visual studio 2013\Projects\NPOI操作Excel\NPOI操作Excel\bin\Debug\NPOI操作Excel.pdb
+d:\documents\visual studio 2013\Projects\NPOI操作Excel\NPOI操作Excel\bin\Debug\NPOI.dll
+d:\documents\visual studio 2013\Projects\NPOI操作Excel\NPOI操作Excel\obj\Debug\NPOI操作Excel.exe
+d:\documents\visual studio 2013\Projects\NPOI操作Excel\NPOI操作Excel\obj\Debug\NPOI操作Excel.pdb
+d:\documents\visual studio 2013\Projects\NPOI操作Excel\NPOI操作Excel\bin\Debug\ICSharpCode.SharpZipLib.dll
+d:\documents\visual studio 2013\Projects\NPOI操作Excel\NPOI操作Excel\bin\Debug\NPOI.OOXML.dll
+d:\documents\visual studio 2013\Projects\NPOI操作Excel\NPOI操作Excel\bin\Debug\NPOI.OpenXml4Net.dll
+d:\documents\visual studio 2013\Projects\NPOI操作Excel\NPOI操作Excel\bin\Debug\NPOI.OpenXmlFormats.dll

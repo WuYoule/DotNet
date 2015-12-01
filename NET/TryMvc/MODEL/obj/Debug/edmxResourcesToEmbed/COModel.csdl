@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="COModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ARCHIVE">
+    <Key>
+      <PropertyRef Name="TASK_ID" />
+      <PropertyRef Name="OBSERVE_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TASK_ID" Type="Int32" Nullable="false" />
+    <Property Name="OBSERVE_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ARCHIVECONTENT" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ARCHIVE_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="MODIFY_TIME" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="USER" Relationship="Self.FK_OBSERVE_ARCHIVE" FromRole="ARCHIVE" ToRole="USER" />
+    <NavigationProperty Name="TASK" Relationship="Self.FK_TASK_ARCHIVE" FromRole="ARCHIVE" ToRole="TASK" />
+    <NavigationProperty Name="USER1" Relationship="Self.FK_USER_ARCHIVE" FromRole="ARCHIVE" ToRole="USER" />
+  </EntityType>
+  <EntityType Name="ATTACHMENT">
+    <Key>
+      <PropertyRef Name="OBSERVE_ID" />
+      <PropertyRef Name="TASK_ID" />
+      <PropertyRef Name="STEP_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OBSERVE_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TASK_ID" Type="Int32" Nullable="false" />
+    <Property Name="STEP_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IMAGE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="VIDEO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="STEP" Relationship="Self.FK_STEP_ATTACHMENT" FromRole="ATTACHMENT" ToRole="STEP" />
+    <NavigationProperty Name="TASK" Relationship="Self.FK_TASK_ATTACHMENT" FromRole="ATTACHMENT" ToRole="TASK" />
+    <NavigationProperty Name="USER" Relationship="Self.FK_USER_ATTACHMENT" FromRole="ATTACHMENT" ToRole="USER" />
+  </EntityType>
+  <EntityType Name="CLASS">
+    <Key>
+      <PropertyRef Name="CLASS_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CLASS_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLASS_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLASS_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLASS_TYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SCHOOL_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SCHOOL_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TASKs" Relationship="Self.FK_CLASS_TASK" FromRole="CLASS" ToRole="TASK" />
+    <NavigationProperty Name="SCHOOL" Relationship="Self.FK_SCHOOL_CLASS" FromRole="CLASS" ToRole="SCHOOL" />
+  </EntityType>
+  <EntityType Name="DISTRIBUT">
+    <Key>
+      <PropertyRef Name="DISTRIBUT_ID" />
+      <PropertyRef Name="DISTRIBUT_SEQ_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DISTRIBUT_ID" Type="Int32" Nullable="false" />
+    <Property Name="DISTRIBUT_SEQ_ID" Type="Int64" Nullable="false" />
+    <Property Name="OBSERVER_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="OBSERVER_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="RECEIVE" Type="Boolean" />
+    <Property Name="RECEIVE_TIME" Type="DateTime" Precision="3" />
+    <Property Name="OBSERVE" Type="Boolean" />
+    <Property Name="OBSERVE_TIME" Type="DateTime" Precision="3" />
+    <Property Name="UPLOAD" Type="Boolean" />
+    <Property Name="UPLOAD_TIME" Type="DateTime" Precision="3" />
+    <Property Name="FILING" Type="Boolean" />
+    <Property Name="FILING_TIME" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="USER" Relationship="Self.FK_USER_DISTRIBUT" FromRole="DISTRIBUT" ToRole="USER" />
+  </EntityType>
+  <EntityType Name="DOC">
+    <Key>
+      <PropertyRef Name="DOC_ID" />
+      <PropertyRef Name="DOC_SEQ_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DOC_ID" Type="Int32" Nullable="false" />
+    <Property Name="DOC_SEQ_ID" Type="Int64" Nullable="false" />
+    <Property Name="DOC_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DOC_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DOC_TYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DOC_FILE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EVALUATE">
+    <Key>
+      <PropertyRef Name="EVALUATE_ID" />
+      <PropertyRef Name="EVALUATE_LEVEL_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TARGET_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_SUBID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_SUBID2" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_CONTENT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_LEVEL_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_LEVEL_CONT" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_LEVEL_RESULT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_LEVEL_SCORE" Type="Int32" Nullable="false" />
+    <Property Name="USED" Type="Int32" />
+    <NavigationProperty Name="OBSERVEs" Relationship="Self.FK_EVALUATE_OBSERVE" FromRole="EVALUATE" ToRole="OBSERVE" />
+    <NavigationProperty Name="TARGET" Relationship="Self.FK_TARGET_EVALUATE" FromRole="EVALUATE" ToRole="TARGET" />
+  </EntityType>
+  <EntityType Name="OBSERVE">
+    <Key>
+      <PropertyRef Name="OBSERVE_ID" />
+      <PropertyRef Name="TASK_ID" />
+      <PropertyRef Name="STEP_ID" />
+      <PropertyRef Name="TARGET_ID" />
+      <PropertyRef Name="TARGET_SUBID" />
+      <PropertyRef Name="TARGET_SUBID2" />
+      <PropertyRef Name="EVALUATE_ID" />
+      <PropertyRef Name="EVALUATE_LEVEL_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OBSERVE_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TASK_ID" Type="Int32" Nullable="false" />
+    <Property Name="STEP_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_SUBID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_SUBID2" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_LEVEL_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_CONTENT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_LEVEL_CONT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_LEVEL_RESULT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVALUATE_LEVEL_SCORE" Type="Int32" Nullable="false" />
+    <Property Name="COMMENT" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="MODIFY_TIME" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="EVALUATE" Relationship="Self.FK_EVALUATE_OBSERVE" FromRole="OBSERVE" ToRole="EVALUATE" />
+    <NavigationProperty Name="STEP" Relationship="Self.FK_STEP_OBSERVE" FromRole="OBSERVE" ToRole="STEP" />
+    <NavigationProperty Name="TARGET" Relationship="Self.FK_TARGET_OBSERVE" FromRole="OBSERVE" ToRole="TARGET" />
+    <NavigationProperty Name="TASK" Relationship="Self.FK_TASK_OBSERVE" FromRole="OBSERVE" ToRole="TASK" />
+    <NavigationProperty Name="USER" Relationship="Self.FK_USER_OBSERVE" FromRole="OBSERVE" ToRole="USER" />
+  </EntityType>
+  <EntityType Name="PERMISSION">
+    <Key>
+      <PropertyRef Name="PID" />
+    </Key>
+    <Property Name="PID" Type="Int32" Nullable="false" />
+    <Property Name="PNAMN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RID" Type="Int32" Nullable="false" />
+    <Property Name="ParentID" Type="Int32" Nullable="false" />
+    <Property Name="PN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ROLE">
+    <Key>
+      <PropertyRef Name="RID" />
+    </Key>
+    <Property Name="RID" Type="Int32" Nullable="false" />
+    <Property Name="RNAME" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SCHOOL">
+    <Key>
+      <PropertyRef Name="SCHOOL_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SCHOOL_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SCHOOL_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SCHOOL_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SCHOOL_TYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SCHOOL_AREA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CLASSes" Relationship="Self.FK_SCHOOL_CLASS" FromRole="SCHOOL" ToRole="CLASS" />
+  </EntityType>
+  <EntityType Name="STEP">
+    <Key>
+      <PropertyRef Name="STEP_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="STEP_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STEP_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STEP_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STEP_TYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ATTACHMENTs" Relationship="Self.FK_STEP_ATTACHMENT" FromRole="STEP" ToRole="ATTACHMENT" />
+    <NavigationProperty Name="OBSERVEs" Relationship="Self.FK_STEP_OBSERVE" FromRole="STEP" ToRole="OBSERVE" />
+    <NavigationProperty Name="STEP_SEL" Relationship="Self.FK_STEP_STEP_SEL" FromRole="STEP" ToRole="STEP_SEL" />
+  </EntityType>
+  <EntityType Name="STEP_SEL">
+    <Key>
+      <PropertyRef Name="STEP_SEL_ID" />
+      <PropertyRef Name="STEP_SEQ_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="STEP_SEL_ID" Type="Int32" Nullable="false" />
+    <Property Name="STEP_SEQ_ID" Type="Int64" Nullable="false" />
+    <Property Name="STEP_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STEP_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STEP_TYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="STEP" Relationship="Self.FK_STEP_STEP_SEL" FromRole="STEP_SEL" ToRole="STEP" />
+  </EntityType>
+  <EntityType Name="STYLE">
+    <Key>
+      <PropertyRef Name="STYLE_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="STYLE_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STYLE_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STYLE_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STYLE_TYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TASKs" Relationship="Self.FK_STYLE_TASK" FromRole="STYLE" ToRole="TASK" />
+  </EntityType>
+  <EntityType Name="SUBJECT">
+    <Key>
+      <PropertyRef Name="SUBJECT_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SUBJECT_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SUBJECT_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SUBJECT_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SUBJECT_TYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TASKs" Relationship="Self.FK_SUBJECT_TASK" FromRole="SUBJECT" ToRole="TASK" />
+  </EntityType>
+  <EntityType Name="TARGET">
+    <Key>
+      <PropertyRef Name="TARGET_ID" />
+      <PropertyRef Name="TARGET_SUBID" />
+      <PropertyRef Name="TARGET_SUBID2" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TARGET_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_SUBID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_SUBID2" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="EVALUATEs" Relationship="Self.FK_TARGET_EVALUATE" FromRole="TARGET" ToRole="EVALUATE" />
+    <NavigationProperty Name="OBSERVEs" Relationship="Self.FK_TARGET_OBSERVE" FromRole="TARGET" ToRole="OBSERVE" />
+    <NavigationProperty Name="TARGET_SEL" Relationship="Self.FK_TARGET_TARGET_SEL" FromRole="TARGET" ToRole="TARGET_SEL" />
+  </EntityType>
+  <EntityType Name="TARGET_SEL">
+    <Key>
+      <PropertyRef Name="TARGET_SEL_ID" />
+      <PropertyRef Name="TARGET_SEQ_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TARGET_SEL_ID" Type="Int32" Nullable="false" />
+    <Property Name="TARGET_SEQ_ID" Type="Int64" Nullable="false" />
+    <Property Name="TARGET_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_SUBID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_SUBID2" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TARGET_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TARGET" Relationship="Self.FK_TARGET_TARGET_SEL" FromRole="TARGET_SEL" ToRole="TARGET" />
+  </EntityType>
+  <EntityType Name="TASK">
+    <Key>
+      <PropertyRef Name="TASK_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TASK_ID" Type="Int32" Nullable="false" />
+    <Property Name="TASK_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SCHOOL_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SCHOOL_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SUBJECT_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SUBJECT_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TITLE_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TITLE_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STYLE_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STYLE_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLASS_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLASS_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TEACHER_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TEACHER_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DOC_ID" Type="Int32" Nullable="false" />
+    <Property Name="STEP_SEL_ID" Type="Int32" Nullable="false" />
+    <Property Name="TARGET_SEL_ID" Type="Int32" Nullable="false" />
+    <Property Name="DISTRIBUT_ID" Type="Int32" Nullable="false" />
+    <Property Name="CREATE_TIME" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="RECEIVE" Type="Int32" />
+    <Property Name="RECEIVE_TIME" Type="DateTime" Precision="3" />
+    <Property Name="OBSERVE" Type="Int32" />
+    <Property Name="OBSERVE_TIME" Type="DateTime" Precision="3" />
+    <Property Name="UPLOAD" Type="Int32" />
+    <Property Name="UPLOAD_TIME" Type="DateTime" Precision="3" />
+    <Property Name="FILING" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="FILING_TIME" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ARCHIVEs" Relationship="Self.FK_TASK_ARCHIVE" FromRole="TASK" ToRole="ARCHIVE" />
+    <NavigationProperty Name="ATTACHMENTs" Relationship="Self.FK_TASK_ATTACHMENT" FromRole="TASK" ToRole="ATTACHMENT" />
+    <NavigationProperty Name="CLASS" Relationship="Self.FK_CLASS_TASK" FromRole="TASK" ToRole="CLASS" />
+    <NavigationProperty Name="OBSERVEs" Relationship="Self.FK_TASK_OBSERVE" FromRole="TASK" ToRole="OBSERVE" />
+    <NavigationProperty Name="STYLE" Relationship="Self.FK_STYLE_TASK" FromRole="TASK" ToRole="STYLE" />
+    <NavigationProperty Name="SUBJECT" Relationship="Self.FK_SUBJECT_TASK" FromRole="TASK" ToRole="SUBJECT" />
+    <NavigationProperty Name="TITLE" Relationship="Self.FK_TITLE_TASK" FromRole="TASK" ToRole="TITLE" />
+    <NavigationProperty Name="USER" Relationship="Self.FK_USER_TASK" FromRole="TASK" ToRole="USER" />
+  </EntityType>
+  <EntityType Name="TITLE">
+    <Key>
+      <PropertyRef Name="TITLE_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TITLE_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TITLE_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TITLE_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TITLE_TYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TASKs" Relationship="Self.FK_TITLE_TASK" FromRole="TITLE" ToRole="TASK" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="USER_ID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USER_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USER_N" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USER_TYPE" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USER_PWD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USER_AREA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USER_SCHOOL" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="USER_SUBJECT" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ARCHIVEs" Relationship="Self.FK_OBSERVE_ARCHIVE" FromRole="USER" ToRole="ARCHIVE" />
+    <NavigationProperty Name="ARCHIVEs1" Relationship="Self.FK_USER_ARCHIVE" FromRole="USER" ToRole="ARCHIVE" />
+    <NavigationProperty Name="ATTACHMENTs" Relationship="Self.FK_USER_ATTACHMENT" FromRole="USER" ToRole="ATTACHMENT" />
+    <NavigationProperty Name="DISTRIBUTs" Relationship="Self.FK_USER_DISTRIBUT" FromRole="USER" ToRole="DISTRIBUT" />
+    <NavigationProperty Name="OBSERVEs" Relationship="Self.FK_USER_OBSERVE" FromRole="USER" ToRole="OBSERVE" />
+    <NavigationProperty Name="TASKs" Relationship="Self.FK_USER_TASK" FromRole="USER" ToRole="TASK" />
+  </EntityType>
+  <EntityType Name="USER_TASK">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+      <PropertyRef Name="TASK_ID" />
+    </Key>
+    <Property Name="USER_ID" Type="Int32" Nullable="false" />
+    <Property Name="TASK_ID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_OBSERVE_ARCHIVE">
+    <End Role="USER" Type="Self.USER" Multiplicity="1" />
+    <End Role="ARCHIVE" Type="Self.ARCHIVE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="ARCHIVE">
+        <PropertyRef Name="OBSERVE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TASK_ARCHIVE">
+    <End Role="TASK" Type="Self.TASK" Multiplicity="1" />
+    <End Role="ARCHIVE" Type="Self.ARCHIVE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TASK">
+        <PropertyRef Name="TASK_ID" />
+      </Principal>
+      <Dependent Role="ARCHIVE">
+        <PropertyRef Name="TASK_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USER_ARCHIVE">
+    <End Role="USER" Type="Self.USER" Multiplicity="0..1" />
+    <End Role="ARCHIVE" Type="Self.ARCHIVE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="ARCHIVE">
+        <PropertyRef Name="ARCHIVE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_STEP_ATTACHMENT">
+    <End Role="STEP" Type="Self.STEP" Multiplicity="1" />
+    <End Role="ATTACHMENT" Type="Self.ATTACHMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="STEP">
+        <PropertyRef Name="STEP_ID" />
+      </Principal>
+      <Dependent Role="ATTACHMENT">
+        <PropertyRef Name="STEP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TASK_ATTACHMENT">
+    <End Role="TASK" Type="Self.TASK" Multiplicity="1" />
+    <End Role="ATTACHMENT" Type="Self.ATTACHMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TASK">
+        <PropertyRef Name="TASK_ID" />
+      </Principal>
+      <Dependent Role="ATTACHMENT">
+        <PropertyRef Name="TASK_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USER_ATTACHMENT">
+    <End Role="USER" Type="Self.USER" Multiplicity="1" />
+    <End Role="ATTACHMENT" Type="Self.ATTACHMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="ATTACHMENT">
+        <PropertyRef Name="OBSERVE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLASS_TASK">
+    <End Role="CLASS" Type="Self.CLASS" Multiplicity="1" />
+    <End Role="TASK" Type="Self.TASK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLASS">
+        <PropertyRef Name="CLASS_ID" />
+      </Principal>
+      <Dependent Role="TASK">
+        <PropertyRef Name="CLASS_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SCHOOL_CLASS">
+    <End Role="SCHOOL" Type="Self.SCHOOL" Multiplicity="1" />
+    <End Role="CLASS" Type="Self.CLASS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SCHOOL">
+        <PropertyRef Name="SCHOOL_ID" />
+      </Principal>
+      <Dependent Role="CLASS">
+        <PropertyRef Name="SCHOOL_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USER_DISTRIBUT">
+    <End Role="USER" Type="Self.USER" Multiplicity="0..1" />
+    <End Role="DISTRIBUT" Type="Self.DISTRIBUT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="DISTRIBUT">
+        <PropertyRef Name="OBSERVER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EVALUATE_OBSERVE">
+    <End Role="EVALUATE" Type="Self.EVALUATE" Multiplicity="1" />
+    <End Role="OBSERVE" Type="Self.OBSERVE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EVALUATE">
+        <PropertyRef Name="EVALUATE_ID" />
+        <PropertyRef Name="EVALUATE_LEVEL_ID" />
+      </Principal>
+      <Dependent Role="OBSERVE">
+        <PropertyRef Name="EVALUATE_ID" />
+        <PropertyRef Name="EVALUATE_LEVEL_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TARGET_EVALUATE">
+    <End Role="TARGET" Type="Self.TARGET" Multiplicity="1" />
+    <End Role="EVALUATE" Type="Self.EVALUATE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TARGET">
+        <PropertyRef Name="TARGET_ID" />
+        <PropertyRef Name="TARGET_SUBID" />
+        <PropertyRef Name="TARGET_SUBID2" />
+      </Principal>
+      <Dependent Role="EVALUATE">
+        <PropertyRef Name="TARGET_ID" />
+        <PropertyRef Name="TARGET_SUBID" />
+        <PropertyRef Name="TARGET_SUBID2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_STEP_OBSERVE">
+    <End Role="STEP" Type="Self.STEP" Multiplicity="1" />
+    <End Role="OBSERVE" Type="Self.OBSERVE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="STEP">
+        <PropertyRef Name="STEP_ID" />
+      </Principal>
+      <Dependent Role="OBSERVE">
+        <PropertyRef Name="STEP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TARGET_OBSERVE">
+    <End Role="TARGET" Type="Self.TARGET" Multiplicity="1" />
+    <End Role="OBSERVE" Type="Self.OBSERVE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TARGET">
+        <PropertyRef Name="TARGET_ID" />
+        <PropertyRef Name="TARGET_SUBID" />
+        <PropertyRef Name="TARGET_SUBID2" />
+      </Principal>
+      <Dependent Role="OBSERVE">
+        <PropertyRef Name="TARGET_ID" />
+        <PropertyRef Name="TARGET_SUBID" />
+        <PropertyRef Name="TARGET_SUBID2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TASK_OBSERVE">
+    <End Role="TASK" Type="Self.TASK" Multiplicity="1" />
+    <End Role="OBSERVE" Type="Self.OBSERVE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TASK">
+        <PropertyRef Name="TASK_ID" />
+      </Principal>
+      <Dependent Role="OBSERVE">
+        <PropertyRef Name="TASK_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USER_OBSERVE">
+    <End Role="USER" Type="Self.USER" Multiplicity="1" />
+    <End Role="OBSERVE" Type="Self.OBSERVE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="OBSERVE">
+        <PropertyRef Name="OBSERVE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_STEP_STEP_SEL">
+    <End Role="STEP" Type="Self.STEP" Multiplicity="1" />
+    <End Role="STEP_SEL" Type="Self.STEP_SEL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="STEP">
+        <PropertyRef Name="STEP_ID" />
+      </Principal>
+      <Dependent Role="STEP_SEL">
+        <PropertyRef Name="STEP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_STYLE_TASK">
+    <End Role="STYLE" Type="Self.STYLE" Multiplicity="1" />
+    <End Role="TASK" Type="Self.TASK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="STYLE">
+        <PropertyRef Name="STYLE_ID" />
+      </Principal>
+      <Dependent Role="TASK">
+        <PropertyRef Name="STYLE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SUBJECT_TASK">
+    <End Role="SUBJECT" Type="Self.SUBJECT" Multiplicity="1" />
+    <End Role="TASK" Type="Self.TASK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SUBJECT">
+        <PropertyRef Name="SUBJECT_ID" />
+      </Principal>
+      <Dependent Role="TASK">
+        <PropertyRef Name="SUBJECT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TARGET_TARGET_SEL">
+    <End Role="TARGET" Type="Self.TARGET" Multiplicity="1" />
+    <End Role="TARGET_SEL" Type="Self.TARGET_SEL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TARGET">
+        <PropertyRef Name="TARGET_ID" />
+        <PropertyRef Name="TARGET_SUBID" />
+        <PropertyRef Name="TARGET_SUBID2" />
+      </Principal>
+      <Dependent Role="TARGET_SEL">
+        <PropertyRef Name="TARGET_ID" />
+        <PropertyRef Name="TARGET_SUBID" />
+        <PropertyRef Name="TARGET_SUBID2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TITLE_TASK">
+    <End Role="TITLE" Type="Self.TITLE" Multiplicity="1" />
+    <End Role="TASK" Type="Self.TASK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TITLE">
+        <PropertyRef Name="TITLE_ID" />
+      </Principal>
+      <Dependent Role="TASK">
+        <PropertyRef Name="TITLE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USER_TASK">
+    <End Role="USER" Type="Self.USER" Multiplicity="1" />
+    <End Role="TASK" Type="Self.TASK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="TASK">
+        <PropertyRef Name="TEACHER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="COEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ARCHIVEs" EntityType="Self.ARCHIVE" />
+    <EntitySet Name="ATTACHMENTs" EntityType="Self.ATTACHMENT" />
+    <EntitySet Name="CLASSes" EntityType="Self.CLASS" />
+    <EntitySet Name="DISTRIBUTs" EntityType="Self.DISTRIBUT" />
+    <EntitySet Name="DOCs" EntityType="Self.DOC" />
+    <EntitySet Name="EVALUATEs" EntityType="Self.EVALUATE" />
+    <EntitySet Name="OBSERVEs" EntityType="Self.OBSERVE" />
+    <EntitySet Name="PERMISSIONs" EntityType="Self.PERMISSION" />
+    <EntitySet Name="ROLEs" EntityType="Self.ROLE" />
+    <EntitySet Name="SCHOOLs" EntityType="Self.SCHOOL" />
+    <EntitySet Name="STEPs" EntityType="Self.STEP" />
+    <EntitySet Name="STEP_SEL" EntityType="Self.STEP_SEL" />
+    <EntitySet Name="STYLEs" EntityType="Self.STYLE" />
+    <EntitySet Name="SUBJECTs" EntityType="Self.SUBJECT" />
+    <EntitySet Name="TARGETs" EntityType="Self.TARGET" />
+    <EntitySet Name="TARGET_SEL" EntityType="Self.TARGET_SEL" />
+    <EntitySet Name="TASKs" EntityType="Self.TASK" />
+    <EntitySet Name="TITLEs" EntityType="Self.TITLE" />
+    <EntitySet Name="USERs" EntityType="Self.USER" />
+    <EntitySet Name="USER_TASK" EntityType="Self.USER_TASK" />
+    <AssociationSet Name="FK_OBSERVE_ARCHIVE" Association="Self.FK_OBSERVE_ARCHIVE">
+      <End Role="USER" EntitySet="USERs" />
+      <End Role="ARCHIVE" EntitySet="ARCHIVEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TASK_ARCHIVE" Association="Self.FK_TASK_ARCHIVE">
+      <End Role="TASK" EntitySet="TASKs" />
+      <End Role="ARCHIVE" EntitySet="ARCHIVEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USER_ARCHIVE" Association="Self.FK_USER_ARCHIVE">
+      <End Role="USER" EntitySet="USERs" />
+      <End Role="ARCHIVE" EntitySet="ARCHIVEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_STEP_ATTACHMENT" Association="Self.FK_STEP_ATTACHMENT">
+      <End Role="STEP" EntitySet="STEPs" />
+      <End Role="ATTACHMENT" EntitySet="ATTACHMENTs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TASK_ATTACHMENT" Association="Self.FK_TASK_ATTACHMENT">
+      <End Role="TASK" EntitySet="TASKs" />
+      <End Role="ATTACHMENT" EntitySet="ATTACHMENTs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USER_ATTACHMENT" Association="Self.FK_USER_ATTACHMENT">
+      <End Role="USER" EntitySet="USERs" />
+      <End Role="ATTACHMENT" EntitySet="ATTACHMENTs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLASS_TASK" Association="Self.FK_CLASS_TASK">
+      <End Role="CLASS" EntitySet="CLASSes" />
+      <End Role="TASK" EntitySet="TASKs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SCHOOL_CLASS" Association="Self.FK_SCHOOL_CLASS">
+      <End Role="SCHOOL" EntitySet="SCHOOLs" />
+      <End Role="CLASS" EntitySet="CLASSes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USER_DISTRIBUT" Association="Self.FK_USER_DISTRIBUT">
+      <End Role="USER" EntitySet="USERs" />
+      <End Role="DISTRIBUT" EntitySet="DISTRIBUTs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EVALUATE_OBSERVE" Association="Self.FK_EVALUATE_OBSERVE">
+      <End Role="EVALUATE" EntitySet="EVALUATEs" />
+      <End Role="OBSERVE" EntitySet="OBSERVEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TARGET_EVALUATE" Association="Self.FK_TARGET_EVALUATE">
+      <End Role="TARGET" EntitySet="TARGETs" />
+      <End Role="EVALUATE" EntitySet="EVALUATEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_STEP_OBSERVE" Association="Self.FK_STEP_OBSERVE">
+      <End Role="STEP" EntitySet="STEPs" />
+      <End Role="OBSERVE" EntitySet="OBSERVEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TARGET_OBSERVE" Association="Self.FK_TARGET_OBSERVE">
+      <End Role="TARGET" EntitySet="TARGETs" />
+      <End Role="OBSERVE" EntitySet="OBSERVEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TASK_OBSERVE" Association="Self.FK_TASK_OBSERVE">
+      <End Role="TASK" EntitySet="TASKs" />
+      <End Role="OBSERVE" EntitySet="OBSERVEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USER_OBSERVE" Association="Self.FK_USER_OBSERVE">
+      <End Role="USER" EntitySet="USERs" />
+      <End Role="OBSERVE" EntitySet="OBSERVEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_STEP_STEP_SEL" Association="Self.FK_STEP_STEP_SEL">
+      <End Role="STEP" EntitySet="STEPs" />
+      <End Role="STEP_SEL" EntitySet="STEP_SEL" />
+    </AssociationSet>
+    <AssociationSet Name="FK_STYLE_TASK" Association="Self.FK_STYLE_TASK">
+      <End Role="STYLE" EntitySet="STYLEs" />
+      <End Role="TASK" EntitySet="TASKs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SUBJECT_TASK" Association="Self.FK_SUBJECT_TASK">
+      <End Role="SUBJECT" EntitySet="SUBJECTs" />
+      <End Role="TASK" EntitySet="TASKs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TARGET_TARGET_SEL" Association="Self.FK_TARGET_TARGET_SEL">
+      <End Role="TARGET" EntitySet="TARGETs" />
+      <End Role="TARGET_SEL" EntitySet="TARGET_SEL" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TITLE_TASK" Association="Self.FK_TITLE_TASK">
+      <End Role="TITLE" EntitySet="TITLEs" />
+      <End Role="TASK" EntitySet="TASKs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USER_TASK" Association="Self.FK_USER_TASK">
+      <End Role="USER" EntitySet="USERs" />
+      <End Role="TASK" EntitySet="TASKs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,128 @@
+﻿@model MODEL.ViewModel.LoginUser
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- start: Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- end: Mobile Specific -->
+    <title>Login</title>
+    <!-- start: CSS -->
+    <link id="bootstrap-style" href="~/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link id="base-style" href="~/css/style.css" rel="stylesheet">
+    <link id="base-style-responsive" href="~/css/style-responsive.css" rel="stylesheet">
+    <link href="~/css/mycss.css" rel="stylesheet" />
+    <!-- end: CSS -->
+    <!-- start: JavaScript-->
+    <script src="~/Scripts/jquery-1.8.2.js"></script>
+    <!--这个必须加-->
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <!--这个必须加-->
+    <script src="~/Scripts/jquery.msgProcess.js"></script>
+    <script src="~/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.uniform.min.js"></script>
+    <script src="~/js/jquery.cleditor.min.js"></script>
+    <script src="~/js/custom.js"></script>
+    <script src="~/js/myjs.js"></script>
+    <!-- end: JavaScript-->
+    <style type="text/css">
+        label {
+         color:red;
+        }
+
+    </style>
+    <script type="text/javascript">
+        function Success(data) {
+            if (data=="ok") {
+                window.location = "/Index/Index";
+            }
+            else {
+                alert("登陆失败！");
+            }
+
+        }
+
+    </script>
+
+</head>
+<body>
+    <div class="container-fluid-full">
+        <div class="row-fluid">
+
+            <div class="row-fluid">
+                <div class="login-box" >
+                    <div class="icons">
+                        <a href="index.html"><i class="halflings-icon home"></i></a>
+                        <a href="#"><i class="halflings-icon cog"></i></a>
+                    </div>
+                    <h2>账户登陆</h2>
+                    @using (Ajax.BeginForm(new AjaxOptions()
+                    {
+                        HttpMethod = "Post",
+                        OnSuccess = "Success"
+                       
+                    }))
+                    {
+                       
+                        <fieldset>
+
+                            <div class="input-prepend" id="name" title="账户名称">
+                                <span class="add-on"><i class="halflings-icon user"></i></span>
+                                @Html.TextBoxFor(u => u.LoginName, new { @class = "input-large span10", @onfocus = "nameaddC()", @onblur = "nameremoveC()" })
+                                
+
+                            </div>
+                            <label style="margin-left:20px;">
+                                @Html.ValidationMessageFor(u => u.LoginName)
+                            </label>
+                            <div class="clearfix"></div>
+
+                            <div class="input-prepend temp" id="pwd" title="账户密码">
+                                <span class="add-on"><i class="halflings-icon lock"></i></span>
+                                @Html.PasswordFor(u => u.Pwd, new { @class = "input-large span10", @onfocus = "pwdaddC()", @onblur = "pwdremoveC()" })
+                                
+                                
+                            </div>
+                            <label style="margin-left:20px;">
+                                @Html.ValidationMessageFor(u => u.Pwd)
+                            </label>
+                            <div class="clearfix"></div>
+
+                            <label class="remember" for="remember" style="color:black">
+                                @Html.CheckBoxFor(u => u.IsAlways)
+
+                                记住我
+                            </label>
+
+                            <div class="button-login">
+                                <input type="submit" class="btn btn-primary" value="登 陆">
+                            </div>
+                            <div class="clearfix"></div>
+                        </fieldset>
+
+                    }
+
+
+                    <hr>
+                    <h3>忘记密码?</h3>
+                    <p>
+                        没问题, <a href="#">点击这儿</a> 获取新密码.
+                    </p>
+                </div><!--/span-->
+            </div><!--/row-->
+
+
+        </div><!--/.fluid-container-->
+
+    </div><!--/fluid-row-->
+
+</body>
+</html>

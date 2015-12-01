@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5b52e0412891453794da147dbd8d562f" Name="Diagram1">
+        <EntityTypeShape EntityType="COModel.ARCHIVE" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.ATTACHMENT" Width="1.5" PointX="6" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.CLASS" Width="1.5" PointX="6.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.DISTRIBUT" Width="1.5" PointX="3" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.DOC" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.EVALUATE" Width="1.5" PointX="0.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.OBSERVE" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.PERMISSION" Width="1.5" PointX="8.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.ROLE" Width="1.5" PointX="5.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.SCHOOL" Width="1.5" PointX="4.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.STEP" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.STEP_SEL" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.STYLE" Width="1.5" PointX="6.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.SUBJECT" Width="1.5" PointX="6.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.TARGET" Width="1.5" PointX="1.5" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.TARGET_SEL" Width="1.5" PointX="3.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.TASK" Width="1.5" PointX="9" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.TITLE" Width="1.5" PointX="6.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.USER" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="COModel.USER_TASK" Width="1.5" PointX="7.75" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="COModel.FK_OBSERVE_ARCHIVE" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_TASK_ARCHIVE" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_USER_ARCHIVE" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_STEP_ATTACHMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_TASK_ATTACHMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_USER_ATTACHMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_CLASS_TASK" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_SCHOOL_CLASS" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_USER_DISTRIBUT" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_EVALUATE_OBSERVE" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_TARGET_EVALUATE" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_STEP_OBSERVE" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_TARGET_OBSERVE" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_TASK_OBSERVE" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_USER_OBSERVE" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_STEP_STEP_SEL" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_STYLE_TASK" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_SUBJECT_TASK" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_TARGET_TARGET_SEL" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_TITLE_TASK" ManuallyRouted="false" />
+        <AssociationConnector Association="COModel.FK_USER_TASK" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

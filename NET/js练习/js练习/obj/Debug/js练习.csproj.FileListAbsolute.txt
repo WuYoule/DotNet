@@ -1,0 +1,6 @@
+d:\documents\visual studio 2013\Projects\js练习\js练习\bin\js练习.dll.config
+d:\documents\visual studio 2013\Projects\js练习\js练习\bin\js练习.dll
+d:\documents\visual studio 2013\Projects\js练习\js练习\bin\js练习.pdb
+d:\documents\visual studio 2013\Projects\js练习\js练习\obj\Debug\js练习.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2013\Projects\js练习\js练习\obj\Debug\js练习.dll
+d:\documents\visual studio 2013\Projects\js练习\js练习\obj\Debug\js练习.pdb

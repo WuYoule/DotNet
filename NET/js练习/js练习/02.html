@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script type="text/javascript">
+        window.onload = function () {
+           
+            document.getElementById("btn").addEventListener("click", function () {
+                // alert("ok");
+                var obj = document.getElementById("dig");
+                if (obj.style.visibility == "hidden") {
+                    obj.style.visibility = "visible";
+                    var obj = document.getElementById("dig").childNodes[1];
+                    alert(obj.firstChild.textContent);
+                    //if (obj.nodeValue) {
+                    //    alert("nodevalue");
+
+                    //    alert(obj.nodeValue);
+                        
+                    //}
+                    //else {
+                    //     alert("textContent");
+                    //    alert(obj.textContent);
+                    //}
+                   
+                }
+                else if (obj.style.visibility == "visible") {
+                     obj.style.visibility = "hidden";
+                }
+             //document.getElementById("dig").style.visibility='visible';
+               // alert(obj);
+               // if (obj == 'hidden') {
+                   // obj = 'visible';
+
+               // }
+                //else {
+                //    obj = 'hidden';
+               // }
+
+            },false);
+        }
+        function Dj() {
+            document.getElementById("dig").style.visibility = 'hidden';
+
+        }
+
+    </script>
+</head>
+<body>
+    <button id="btn">click</button>
+    <div id="dig" style="visibility:hidden">
+    <p url="hhh">操作失败</p>
+    </div>
+
+</body>
+</html>

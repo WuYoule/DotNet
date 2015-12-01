@@ -1,0 +1,16 @@
+d:\documents\visual studio 2013\Projects\MYOA\DALMSSQL\bin\Debug\DALMSSQL.dll
+d:\documents\visual studio 2013\Projects\MYOA\DALMSSQL\bin\Debug\DALMSSQL.pdb
+d:\documents\visual studio 2013\Projects\MYOA\DALMSSQL\bin\Debug\IDAL.dll
+d:\documents\visual studio 2013\Projects\MYOA\DALMSSQL\bin\Debug\MODEL.dll
+d:\documents\visual studio 2013\Projects\MYOA\DALMSSQL\bin\Debug\EntityFramework.dll
+d:\documents\visual studio 2013\Projects\MYOA\DALMSSQL\bin\Debug\IDAL.pdb
+d:\documents\visual studio 2013\Projects\MYOA\DALMSSQL\bin\Debug\MODEL.pdb
+d:\documents\visual studio 2013\Projects\MYOA\DALMSSQL\bin\Debug\EntityFramework.xml
+d:\documents\visual studio 2013\Projects\MYOA\DALMSSQL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\MYOA\bin\DALMSSQL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\MYOA\bin\DALMSSQL.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\MVCOA\bin\DALMSSQL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\MVCOA\bin\DALMSSQL.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\MYOA\DALMSSQL\obj\Debug\DALMSSQL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\DALMSSQL\obj\Debug\DALMSSQL.pdb

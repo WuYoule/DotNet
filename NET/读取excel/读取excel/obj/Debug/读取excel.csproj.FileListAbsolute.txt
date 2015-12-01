@@ -1,0 +1,9 @@
+d:\documents\visual studio 2013\Projects\读取excel\读取excel\bin\Debug\读取excel.exe.config
+d:\documents\visual studio 2013\Projects\读取excel\读取excel\bin\Debug\读取excel.exe
+d:\documents\visual studio 2013\Projects\读取excel\读取excel\bin\Debug\读取excel.pdb
+d:\documents\visual studio 2013\Projects\读取excel\读取excel\obj\Debug\读取excel.exe
+d:\documents\visual studio 2013\Projects\读取excel\读取excel\obj\Debug\读取excel.pdb
+d:\documents\visual studio 2013\Projects\读取excel\读取excel\obj\Debug\Interop.Microsoft.Office.Core.dll
+d:\documents\visual studio 2013\Projects\读取excel\读取excel\obj\Debug\读取excel.csproj.ResolveComReference.cache
+d:\documents\visual studio 2013\Projects\读取excel\读取excel\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+d:\documents\visual studio 2013\Projects\读取excel\读取excel\obj\Debug\读取excel.csprojResolveAssemblyReference.cache

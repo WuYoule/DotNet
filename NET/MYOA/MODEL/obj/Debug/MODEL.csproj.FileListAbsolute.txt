@@ -1,0 +1,8 @@
+D:\Documents\Visual Studio 2013\Projects\MYOA\MODEL\bin\Debug\MODEL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\MODEL\bin\Debug\MODEL.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\MODEL\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\MODEL\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2013\Projects\MYOA\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\MODEL\obj\Debug\MODEL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\MODEL\obj\Debug\MODEL.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache

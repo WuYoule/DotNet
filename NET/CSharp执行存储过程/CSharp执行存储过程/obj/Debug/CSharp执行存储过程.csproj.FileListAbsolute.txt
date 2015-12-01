@@ -1,0 +1,6 @@
+d:\documents\visual studio 2013\Projects\CSharp执行存储过程\CSharp执行存储过程\bin\Debug\CSharp执行存储过程.exe.config
+d:\documents\visual studio 2013\Projects\CSharp执行存储过程\CSharp执行存储过程\bin\Debug\CSharp执行存储过程.exe
+d:\documents\visual studio 2013\Projects\CSharp执行存储过程\CSharp执行存储过程\bin\Debug\CSharp执行存储过程.pdb
+d:\documents\visual studio 2013\Projects\CSharp执行存储过程\CSharp执行存储过程\obj\Debug\CSharp执行存储过程.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2013\Projects\CSharp执行存储过程\CSharp执行存储过程\obj\Debug\CSharp执行存储过程.exe
+d:\documents\visual studio 2013\Projects\CSharp执行存储过程\CSharp执行存储过程\obj\Debug\CSharp执行存储过程.pdb

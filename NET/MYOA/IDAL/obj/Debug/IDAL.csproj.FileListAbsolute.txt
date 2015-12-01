@@ -1,0 +1,10 @@
+D:\Documents\Visual Studio 2013\Projects\MYOA\IDAL\bin\Debug\IDAL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\IDAL\bin\Debug\IDAL.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\IDAL\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\IDAL\bin\Debug\MODEL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\IDAL\bin\Debug\MODEL.pdb
+D:\Documents\Visual Studio 2013\Projects\MYOA\IDAL\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2013\Projects\MYOA\IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\MYOA\IDAL\obj\Debug\IDAL.dll
+D:\Documents\Visual Studio 2013\Projects\MYOA\IDAL\obj\Debug\IDAL.pdb
