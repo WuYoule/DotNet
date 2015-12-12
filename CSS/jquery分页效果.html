@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrap{
+            text-align: center;
+            background: darkgray;
+
+        }
+        .wrap div{
+            display:inline-block;
+            vertical-align: middle;
+        }
+        .page ul li{
+           float: left;
+            list-style: none;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            background: #2c9ef4;
+            margin-left:10px;
+        }
+        /*.page ul li:last-child{*/
+            /*margin-right: 10px;*/
+        /*}*/
+        .nav span{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            background: #0000FF;
+
+        }
+        .page{
+            /*border: 1px solid red;*/
+            width: 210px;
+            overflow: hidden;
+            height: 30px;
+
+
+        }
+        .page ul{
+           width: 3000px;
+
+
+        }
+        /*.next{*/
+            /*margin-left: 10px;*/
+        /*}*/
+        .page ul li.current{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+ <div class="wrap">
+     <div class="nav pre"><span><</span></div><div class="page">
+         <ul>
+             <li class="current" num="1">1</li><li num="1">2</li><li num="3">3</li><li num="4">4</li><li num="5">5</li><li num="6">6</li><li num="7">7</li><li num="8">8</li><li num="9">9</li><li num="10">10</li><li num="11">11</li><li num="12">12</li><li num="13">13</li><li num="14">14</li><li num="15">15</li>
+         </ul>
+     </div><div class="nav next"><span style="z-index:999;" >></span></div>
+ </div>
+</body>
+</html>
+<script>
+    $(function(){
+        $('.page ul li').click(function () {
+            $(this).addClass('current').siblings().removeClass('current');
+        });
+        $('.next span').click(function(){
+           var num= $('.page ul li.current').attr('num')
+
+//            alert(num);
+            num=(parseInt(num))*40;
+//            alert(num);
+            $('.page ul').css('margin-left','-'+num+'px');
+
+        });
+
+    })
+</script>
